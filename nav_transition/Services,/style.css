@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0d1321;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 20px 10px;
+}
+
+header .logo {
+    font-size: 20px;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0d1321;
+    padding: 10px 30px;
+    width: 50%;    margin-right: 350px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(240, 235, 216, 1);
+}
+
+header .navbar {
+    display: flex;
+    justify-content: center;
+    right: 20px;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: center;
+    right: 20px;
+}
+
+header .navbar ul {
+    display: flex;
+    list-style: none; /* for delete the (.) */
+    padding: 0;
+    gap: 50px;
+    font-size: 20px;
+}
+
+header .navbar ul li {
+    text-align: center;
+}
+
+header .navbar ul li a {
+    color: #1d2d44;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+header .navbar ul li a:hover {
+    color: #f0ebd8;
+    transition: all 0.6s ease;
+}
+
+header .navbar ul li a.active {
+    color: #f0ebd8;
+}
+
+main .text{
+    color: #fff;
+    font-size: 100px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 250px;
+}
